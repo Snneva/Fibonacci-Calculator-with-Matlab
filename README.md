@@ -1,7 +1,8 @@
 # Fibonacci Calculator with Matlab
 This is a simple application created using **Matlab App Designer** to calculate and display the Fibonacci sequence. This code can be used by entering two initial numbers and the desired length of the sequence.
 
-![GUI Aplikasi Fibonacci]
+## Fibonacci Calculator GUI
+![Fib_Calc](https://github.com/user-attachments/assets/32d10905-b01f-4eb7-b959-210ea79c1f4c)
 
 ## Main Feature
 
