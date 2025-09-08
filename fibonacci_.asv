@@ -1,0 +1,12 @@
+% Section ini akan ada Conditional branching, Array, Fibinacci Sequence
+% Leap year calculation, Prime calculation
+
+% Matriks menggunakan = [] (bracket)
+
+% Program fibonacci seq
+% Input : 2 Bilangan pertama dan panjang yang di inginkan
+% Output : Fibonacci seq
+
+
+clc; clear;
+G = input('Masukan 2 bilangan pertama')
