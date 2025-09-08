@@ -1,40 +1,20 @@
-# Fibonacci-Calculator-with-Matlab
-This is a code for a Fibonacci sequence calculator that uses a GUI in Matlab.
-
-# Kalkulator Deret Fibonacci dengan MATLAB App Designer
-
-Ini adalah sebuah aplikasi sederhana yang dibangun menggunakan **MATLAB App Designer** untuk menghitung dan menampilkan deret Fibonacci. Aplikasi ini memungkinkan pengguna untuk memasukkan dua bilangan awal dan panjang deret yang diinginkan, sehingga lebih fleksibel daripada deret Fibonacci standar yang dimulai dari 0 dan 1.
+# Fibonacci Calculator with Matlab
+This is a simple application created using **Matlab App Designer** to calculate and display the Fibonacci sequence. This code can be used by entering two initial numbers and the desired length of the sequence.
 
 ![GUI Aplikasi Fibonacci]
 
-## Fitur Utama
+## Main Feature
 
-- **Input Kustom**: Pengguna dapat menentukan dua bilangan pertama dari deret.
-- **Panjang Deret Fleksibel**: Hitung deret hingga panjang yang diinginkan.
-- **Antarmuka Grafis (GUI)**: Antarmuka yang intuitif dan mudah digunakan.
+- **Custom Input**: Users can specify the first two numbers of the series.
+- **Flexible Series Length**: Calculate the series to the desired length.
+- **Graphical User Interface (GUI)**: Intuitive and easy-to-use interface.
 
-## Cara Menggunakan
+## How to Use
 
-1.  **Buka MATLAB**: Pastikan Anda memiliki MATLAB yang terinstal dengan **App Designer**.
-2.  **Buka Proyek**: Buka file `.mlapp` ini di MATLAB.
-3.  **Jalankan Aplikasi**: Tekan tombol **"Run"** di App Designer.
-4.  **Masukkan Nilai**: Isi kolom **"Masukan Angka X"**, **"Masukan Angka Y"**, dan **"Masukan Panjang Deret"** dengan angka yang Anda inginkan.
-5.  **Tekan Tombol**: Klik tombol **"Generate"** untuk melihat hasilnya di kolom **"Hasil"**.
+1.  **Open MATLAB**: Make sure you have MATLAB installed with **App Designer**.
+2.  **Open Project**: Open this `.mlapp` file in MATLAB.
+3.  **Run the Application**: Press the **“Run”** button in App Designer.
+4.  **Enter Values**: Fill in the **“Enter Number X”**, **“Enter Number Y”**, and **“Enter Series Length”** fields with the numbers you want.
+5.  **Press the Button**: Click the **“Generate”** button to see the results in the **“Results”** column.
 
-## Struktur Kode
-
-Kode utama berada dalam file `.mlapp` yang berisi desain GUI dan logika perhitungannya. Logika inti dari aplikasi ini adalah sebagai berikut:
-
-- Mengambil nilai input dari **Numeric Edit Field**.
-- Menggunakan perulangan `for` untuk menghitung setiap bilangan dalam deret berdasarkan dua bilangan sebelumnya.
-- Menampilkan hasil dalam **Text Area**.
-
-Kode ini ditulis dalam bahasa MATLAB dan memanfaatkan fitur *callback function* di App Designer.
-
-## Kontribusi
-
-Kontribusi dipersilakan! Jika Anda memiliki ide untuk perbaikan atau fitur baru, silakan buka *issue* atau kirimkan *pull request*.
-
-## Lisensi
-
-Proyek ini dilisensikan di bawah [Lisensi MIT](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt).
+This code is written in MATLAB and utilizes the *callback function* feature in App Designer.
